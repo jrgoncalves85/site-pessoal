@@ -1,0 +1,179 @@
+/*
+Folha de Estilo para Site Pessoal 2.0
+*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 14px;
+}
+
+.titulo{
+	font-size: 45px;
+    font-weight: bold;
+    padding-left: 150px;
+    padding-top: 30px;
+    font-style: italic;
+    text-align: left;
+    text-shadow: 2px 2px 1px #FFF;
+    color: #BE6E46;
+    line-height: .9em;
+    letter-spacing: -1.6px;
+}
+
+.slogan{
+	font-size: 20px;
+    padding-left: 150px;
+    font-style: italic;
+    text-align: left;
+    font-weight: 700;
+    color: #666;
+}
+
+#foto{
+	margin: 18px 23px 0px 35px;
+    height: 110px;
+    width: 110px;
+    border-radius: 20px;
+    border: 2px solid #FFF;
+    float: left;
+}
+
+#title{
+	margin: 0px;
+}
+
+#container{
+	width: 979px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#navbar{
+	width: 975px;
+	height: 150px;
+	background-color: #efefa6;
+	border-left: 1px solid #ccc;   
+    border-right: 1px solid #ccc; 
+    border: 2px dashed #69152D;
+}
+
+#navbar ul {
+	list-style-type: none;
+	position:relative;
+	margin: -65px 30px 0 0;
+}
+
+#navbar ul li {
+	float: right;
+    margin: 0 10px;
+}
+
+#menu{
+	background: #69152D;
+	width: 975px;
+	height: 45px;
+    margin-top: -20px;
+}
+
+#menu ul{
+	list-style-type: none;
+	text-transform: uppercase;
+}
+
+#menu ul li{
+	float: left;
+	border-left: 2px solid #69152D;   
+    border-right: 2px solid #69152D; 
+}
+
+#menu ul li a{
+	font-size: 18px;
+	width: 191px;
+	display: block;
+	text-align: center;
+	color: #FFF;
+	text-decoration: none;
+	padding: 7px 0 7px;
+}
+
+#menu ul li a:hover{	
+	color: #69152D;
+	font-size: 20px;
+	background: #FFF;
+}
+
+#main1{
+	background: #FFF;
+	width: 975px;
+}
+
+.cols{
+	width: 325px;
+	padding: 30px 3px 35px 4px;
+	float: left;
+	text-align: center;
+	border-left: 2px solid #69152D;
+	border-right: 2px solid #69152D;
+}
+
+#main1 h4{
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	color: #69152D;
+}
+
+#main2{
+	clear: both;
+	background: #efefa6;
+	border: 2px dashed #69152D;
+	width: 974px;
+    padding: 20px 0;
+    margin: 0;
+}
+
+#main2 h3{
+	font-size: 20px;
+	font-style: italic;
+	line-height: 30px;
+	text-align: center;
+	padding: 5px 70px;	
+	color: #69152D;
+}
+
+#main4{
+	width: 975px;
+    border-left: 2px solid #69152D;
+    border-right: 2px solid #69152D;
+    height: 525px;
+    background: #fff;
+    padding: 10px 30px;
+}
+
+#main4 img {
+	padding: 5px 6px;
+	border: 1px solid #aaa;
+}
+
+#main4 p{
+	font-size: 22px;
+	line-height: 2em;
+}
+
+#footer{
+	clear: both;
+	font-size: 14px;
+	width: 975px;
+	padding: 15px 0 5px; 
+	background: #69152D;
+	text-align: center;
+}
+
+#footer p{
+	color: #FFF;
+}
