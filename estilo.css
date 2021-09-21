@@ -22,15 +22,37 @@ h1{
     width: 980px;
     height: 80px;
 }
-#topo p {
-    text-align: center;
+#foto{
+	margin: 15px 25px 0px 35px;
+    height: 110px;
+    width: 110px;
+    border-radius: 20px;
+    border: 2px solid #FFF;
+    float: left;
+}
+#topo{
+	width: 978px;
+	height: 150px;
+	background-color: #efefa6;
+    border: 1px solid #69152D;
+}
+#logo{
+	width: 350px;
+	height: 58px;
+    margin-top: 20px;
+}
+.slogan {
     font-style: italic;
-    font-size: 16px;
+    font-size: 20px;
+    padding-left: 150px;
+    text-align: left;
+    font-weight: 600;
+    color: #777;
 }
 #menu{
-    background-color: #777;
-    width: 980px;
-    height: 40px;
+    background: #69152D;
+	width: 980px;
+	height: 45px;
 }
 #menu ul{
     text-transform: uppercase;
@@ -40,45 +62,59 @@ h1{
     float: left;
 }
 #menu ul li a{
-    font-style: 18px;
-    width: 195px;
-    display: block;
-    text-align: center;
-    color: #FFF;
-    text-decoration: none;
+	font-size: 18px;
+	width: 190px;
+	display: block;
+	text-align: center;
+	color: #FFF;
+	text-decoration: none;
+	padding: 10px 3px;
 }
-#menu ul li a:hover{
-    color: #777;
-    background-color: #FFF;
+#menu ul li a:hover{	
+	color: #69152D;
+	font-size: 20px;
+	background: #FFF;
 }
 #destaques{
-    background-color: #555;
-    width: 980px;
-    height: 320px;
-    padding-top: 5px;
+    background: #FFF;
+    border: 1px solid #69152D;
+    width: 978px;
+    height: 330px;
 }
-.foto{
-    padding: 5px;
-    border: 2px solid #FFF;
+.cols {
+    width: 319px;
+    padding: 30px 3px 30px 3px;
+    float: left;
+    text-align: center;
+}
+#destaques h4{
+    text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	color: #69152D;
 }
 #bio{
-    background-color: #FFF;
-    width: 980px;
-    height: 170px;
+	background: #efefa6;
+	border: 1px solid #69152D;
+	width: 978px;
 }
 #bio p{
-    text-align: center;
-    font-size: 16px;
-    padding: 15px;
+    font-family: Georgia, 'Times New Roman';
+	font-size: 18px;
+	font-style: italic;
+	text-align: center;
+	padding: 20px 50px;	
+	color: #69152D;
 }
 #rodape{
-    background-color: #777;
-    width: 980px;
-    height: 40px;
+	font-size: 14px;
+	width: 980px;
+	padding: 15px 0 20px; 
+	background: #69152D;
+	text-align: center;
 }
 #rodape p{
-    text-align: center;
-    padding-top: 10px;
+	color: #FFF;
 }
 #tudo{
     width: 980px;
